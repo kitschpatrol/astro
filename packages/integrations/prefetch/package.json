@@ -39,8 +39,7 @@
     "@types/chai-as-promised": "^7.1.5",
     "@types/mocha": "^9.1.1",
     "astro": "workspace:*",
-    "astro-scripts": "workspace:*",
-    "playwright": "^1.34.3"
+    "astro-scripts": "workspace:*"
   },
   "dependencies": {
     "throttles": "^1.0.1"
