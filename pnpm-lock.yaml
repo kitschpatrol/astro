@@ -4251,6 +4251,15 @@ importers:
         specifier: ^4.3.9
         version: 4.3.9(@types/node@18.16.16)(sass@1.62.1)
 
+  packages/integrations/mdx/test/fixtures/astro-content-css:
+    dependencies:
+      '@astrojs/mdx':
+        specifier: workspace:*
+        version: link:../../..
+      astro:
+        specifier: workspace:*
+        version: link:../../../../../astro
+
   packages/integrations/mdx/test/fixtures/css-head-mdx:
     dependencies:
       '@astrojs/mdx':
